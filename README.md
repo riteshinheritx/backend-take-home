@@ -10,6 +10,7 @@ information using ADS-B data.
 - [Go Installation](#go-installation)
 - [Project Setup](#project-setup)
 - [Directory Structure](#directory-structure)
+- [Running the Application](#running-the-application)
 - [Basic Authentication](#basic-authentication)
 - [API Routes](#api-routes)
 
@@ -46,6 +47,23 @@ go mod tidy
 ```
 
 * Right now, we didn't include .env in gitignore file for task submission
+
+
+### Running the Application
+There are two options to run the application:
+
+* Go Run:
+Execute the following command in the project root directory:
+```bash
+go run main.go
+```
+
+* Air (Hot Reloading):
+Air provides hot reloading for Go applications. Install Air globally if you haven't already:
+
+```bash
+air
+```
 
 ## Basic Authentication
 
